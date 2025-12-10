@@ -21,6 +21,9 @@ This repository contains all the Python code and supporting files used for our g
 
 ---
 
+## Complete Project Video
+https://www.youtube.com/watch?v=ChXXNRX1s6s
+
 ## 🛠️ Setup Instructions
 
 ### 1. Clone the Repository
