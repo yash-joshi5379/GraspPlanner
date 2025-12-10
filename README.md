@@ -38,10 +38,15 @@ pip install -r requirements.txt
 ```
 ### 3. Run the file named 'main.py'
 You should see a GUI appear, feel free to explore from there!
+
 To run dataset generation, select the 'Generate Data' button, customise the gripper/object/number of trials and press the 'Start Data Generation' button.
+
 To run classifier training and testing, select the 'Classify Data' button, choose a dataset from the saved `.csv` files and a machine learning model, and press the 'Start Classification' button.
+
 To run model testing on new, unseen data, select the 'Test Saved Model' button, choose a model from the saved `.pkl` files, and press the 'Generate 10 trials and test model' button. 
+
 To view plots of sampled poses, go to the 'figures' folder and choose the desired gripper/object/number of trials combination
+
 To view confusion matrices, go to the 'confusion_matrices' folder and choose the desired gripper/object/model combination
 
 ![alt text](https://github.com/yash-joshi5379/GraspPlanner/blob/main/GUI_image%20(1).png "GUI_image")
