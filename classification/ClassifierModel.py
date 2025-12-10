@@ -184,6 +184,8 @@ class Classifier():
         cm = confusion_matrix(y_test, y_pred)
         cm_display = ConfusionMatrixDisplay(cm, display_labels=[0, 1])
         cm_display.plot(cmap='Blues')
+        for text in cm_display.text_.ravel():
+            text.set_fontsize(32)
         os.makedirs("confusion_matrices", exist_ok=True)
         dataset_stem = os.path.splitext(os.path.basename(dataset_path))[0]
         fig_name = f"{dataset_stem}_Model_{str(model_choice).upper()}.png"
