@@ -26,7 +26,7 @@ https://www.youtube.com/watch?v=ChXXNRX1s6s
 
 ## 🛠️ Setup Instructions
 
-### 1. Clone the Repository
+### 1. Clone or Download the Repository 
 Clone this repository or download it to your local computer.
 
 ```bash
@@ -57,7 +57,7 @@ Once in the venv, run the following instruction in the command line:
 ```bash
 pip install -r requirements.txt
 ```
-### 3. Run the file named 'main.py'
+### 6. Run the file named 'main.py'
 You should see a GUI appear, feel free to explore from there!
 
 To run dataset generation, select the 'Generate Data' button, customise the gripper/object/number of trials and press the 'Start Data Generation' button.
