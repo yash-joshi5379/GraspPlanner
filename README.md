@@ -30,4 +30,5 @@ pip install -r requirements.txt
 ```
 ### 3. Run the file named 'main.py'
 You should see a GUI appear, feel free to explore from there!
+
 ![alt text](https://github.com/yash-joshi5379/GraspPlanner/blob/main/GUI_image%20(1).png "GUI_image")
